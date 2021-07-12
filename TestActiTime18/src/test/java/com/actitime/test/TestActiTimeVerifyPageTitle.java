@@ -32,6 +32,7 @@ public class TestActiTimeVerifyPageTitle {
 		String loginPageTitle = driver.getTitle();
 		Assert.assertEquals(loginPageTitle, "actiTIME - Login");
 		Reporter.log("The login page Title is matching",true);
+		Reporter.log("Hi I am the committed code and new build is created",true);
 	}
 
 
